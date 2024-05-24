@@ -15,8 +15,8 @@ public class JdbcTweetRepository extends JdbcBaseRepository implements TweetRepo
 
 
         try (Statement statement = getConnection().createStatement()) {
-            statement.executeUpdate(
-                    "DELETE FROM twitter.tweet");
+//            statement.executeUpdate(
+//                    "DELETE FROM twitter.tweet");
         }
     }
 
