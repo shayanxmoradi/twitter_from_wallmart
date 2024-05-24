@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3defc29-9a0d-42f2-b1c7-b5bedc7c3c84" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/repository/user/MySqlRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/util/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/util/Menu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +51,7 @@
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "v2",
+    "git-widget-placeholder": "v3",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/shayan/Desktop/JAVA /projects/onclass/twitter_from_wallmart/src/main/java/org/example",
     "node.js.detected.package.eslint": "true",
@@ -79,6 +78,7 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="twitter_from_wallmart" />
+      <option name="PROGRAM_PARAMETERS" value="Database asghar" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -111,7 +111,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1716547709132</updated>
-      <workItem from="1716547710129" duration="7129000" />
+      <workItem from="1716547710129" duration="8377000" />
     </task>
     <servers />
   </component>

@@ -17,11 +17,8 @@ import java.util.Scanner;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) throws SQLException {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("enter your action");
 
-
-        String repoMode = scanner.nextLine();
+        String repoMode = args[1];
         UserRepository userRepository;
         TweetRepository tweetRepository;
         if (repoMode.equals("Database")) {
