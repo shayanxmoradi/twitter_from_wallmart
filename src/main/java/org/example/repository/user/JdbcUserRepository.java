@@ -9,11 +9,7 @@ public class JdbcUserRepository extends JdbcBaseRepository implements UserReposi
 
     public JdbcUserRepository() throws SQLException {
 
-        try (Statement statement = getConnection().createStatement()) {
-            //noinspection SqlWithoutWhere
-//            statement.executeUpdate(
-//                    "DELETE FROM twitter.users");
-        }
+
     }
 
     @Override

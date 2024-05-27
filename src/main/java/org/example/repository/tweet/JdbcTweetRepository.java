@@ -13,11 +13,6 @@ public class JdbcTweetRepository extends JdbcBaseRepository implements TweetRepo
     @SuppressWarnings("SqlWithoutWhere")
     public JdbcTweetRepository() throws SQLException {
 
-
-        try (Statement statement = getConnection().createStatement()) {
-//            statement.executeUpdate(
-//                    "DELETE FROM twitter.tweet");
-        }
     }
 
     @Override
